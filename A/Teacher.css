@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+  background-image:linear-gradient(rgba(17, 34, 42, 0.55),rgba(69, 16, 27, 0.42)),url(teacher.jpg);
+  background-size: cover;
+
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box{
+  position: relative;
+  top: 20%;
+  left:0 0 0 0;
+  width: 100%;
+  padding: 0px;
+  background: rgba(45, 25, 27, 0.58);
+  box-sizing: border-box;
+  border-radius: 20px 20px 20px 20px;
+  min-width: 100%;
+  min-height: auto;
+  text-align: center;
+}
+
+.logo h1 a{
+  text-decoration: none;
+  float: left;
+  width: 5px;
+  height: auto;
+  margin-left: 4%;
+  margin-top: 0%;
+  font-size: 45px;
+  font-weight: bolder;
+  color: rgb(11, 255, 184);
+  position: absolute;
+}
+
+.logo h1 a:hover{
+  color: rgba(255, 233, 0, 0.92);
+  transition: .5s;
+  font-size: 58px;
+}
+
+
+
+
+
+
+
+
+
+
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
+.container img{
+  width:165px;
+  border: 1px solid #00000014;
+  border-radius: 50%;
+  margin-top: 3px;
+}
+
+.container h3 a{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color:rgba(254, 242, 0, 0.81);
+}
+
+
+.container h3 a:hover{
+  transition: .6s;
+  color: rgb(0, 255, 218);
+  font-size: 20px;
+}
+
+.container p{
+  color: #e1c1d9;
+  line-height: 1.5em;
+}
+
+.teacherDES{
+  margin-top: 5px;
+  top: 5%;
+
+  width: 90%;
+  left: 6%;
+  margin-left: 84px;
+}
+
+.teacherDES p{
+  color: #00aefe;
+  font-size: 16px;
+  line-height: 1.5em;
+
+}
+
+.container{
+  border: 1px solid #683c3c87;
+  float: left;
+  display: inline-block;
+  margin: 3px;
+  height: 275px;
+  min-width: 31%;
+  margin-right: 17px;
+  padding: 0px;
+  position: relative;
+  left: 2%;
+
+  margin-top: 22px;
+}
+
+
+.Footer{
+  border: 1px solid #1eb19cd1;
+  background-color: rgba(70, 237, 188, 0.6);
+  height: 10%;
+  width: 100%;
+  top: 100%;
+  position: responsive;
+
+  position: absolute;
+}
+
+
+.Footer p{
+  float: right;
+  margin-right: 30px;
+  margin-top: 40px;
+  font-weight: bold;
+}
